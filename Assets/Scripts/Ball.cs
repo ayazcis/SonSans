@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Ball : MonoBehaviour
 {
+    public AudioSource gotkey;
     public GameObject door;
     public GameObject key;
     public GameObject doorsCollider;
@@ -22,6 +23,7 @@ public class Ball : MonoBehaviour
 	{
 		if (collision.gameObject.CompareTag("key"))
 		{
+            gotkey.Play();
             Destroy(key);
             Destroy(door);
             Destroy(doorsCollider);

@@ -6,13 +6,22 @@ using UnityEngine.SceneManagement;
 public class SecondLevel : MonoBehaviour
 {
     public Canvas girmek;
-    void OnTriggerStay(Collider other)
+    public AudioSource clickportal;
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag("player"))
+		{
+            clickportal.Play();
+        }
+	}
+	void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("player"))
         {
             girmek.gameObject.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
+                //clickportal.Play();
                 //SceneManager.LoadScene();
             }
         }
