@@ -6,9 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenescisem/PortalScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/deneme1.unity
+    guid: 70905479fb09f664fa8da01c75226791
   - enabled: 1
-    path: Assets/Scenescisem/acilis.unity
-    guid: c1ec9d0a2f0e94c4e968a32325ecabe2
+    path: Assets/Scenes/FirstWalkingScene.unity
+    guid: 87acee71244acb44dae946ccbcc2b3aa
+  - enabled: 1
+    path: Assets/Scenes/FirstCutScene.unity
+    guid: 40351047875c87542b99c79827bc721d
+  - enabled: 1
+    path: Assets/Scenes/Portals.unity
+    guid: 737b42d2304f2464194b78966126132a
+  - enabled: 1
+    path: Assets/Scenes/GiftSecantio.unity
+    guid: f1cfc27dbfcf3a24983393fb6fa31487
+  - enabled: 1
+    path: Assets/Scenes/AfterGiftScene.unity
+    guid: cf303ec3f56dcc74a9cfe842d12c9291
+  - enabled: 1
+    path: Assets/Scenes/FirstSpace.unity
+    guid: 4b503c995ba190741a7e2f03f62841d0
+  - enabled: 1
+    path: Assets/Scenes/FirstSpaceAftercut.unity
+    guid: dca911671f875ab43af340c0b55e2a46
+  - enabled: 1
+    path: Assets/Scenes/SceneSpaceprog.unity
+    guid: 105f751477690264ab8274c1e8ddc899
   m_configObjects: {}
