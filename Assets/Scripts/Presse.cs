@@ -21,8 +21,8 @@ public class Presse : MonoBehaviour
             girmek.gameObject.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //clickportal.Play();
-                //SceneManager.LoadScene();
+                clickportal.Play();
+                SceneManager.LoadScene("GiftSecantio");
             }
         }
     }

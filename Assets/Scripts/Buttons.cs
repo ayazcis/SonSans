@@ -44,7 +44,7 @@ public class Buttons : MonoBehaviour
     }
     public void Button1click()
 	{
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene("FirstWalkingScene");
         click.Play();
 	}
     public void Button2click()
@@ -54,7 +54,7 @@ public class Buttons : MonoBehaviour
 	}
     public void Button3click()
 	{
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene("Katki");
         click.Play();
 	}
 }
