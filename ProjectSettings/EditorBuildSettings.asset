@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenescisem/PortalScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenescisem/acilis.unity
+    guid: c1ec9d0a2f0e94c4e968a32325ecabe2
   m_configObjects: {}
