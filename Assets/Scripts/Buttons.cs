@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Buttons : MonoBehaviour
 {
+    public AudioSource click;
     Animator anim;
     public GameObject kiz;
 
@@ -44,9 +45,16 @@ public class Buttons : MonoBehaviour
     public void Button1click()
 	{
         //SceneManager.LoadScene();
+        click.Play();
 	}
     public void Button2click()
 	{
         Application.Quit();
+        click.Play();
+	}
+    public void Button3click()
+	{
+        //SceneManager.LoadScene();
+        click.Play();
 	}
 }
