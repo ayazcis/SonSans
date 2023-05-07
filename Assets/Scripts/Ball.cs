@@ -30,7 +30,7 @@ public class Ball : MonoBehaviour
 		}
         if (collision.gameObject.CompareTag("out"))
         {
-            //SceneManager.LoadScene();
+            SceneManager.LoadScene("PortalScene");
         }
     }
 
